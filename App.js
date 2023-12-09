@@ -15,7 +15,7 @@ export default function App() {
   const [sex, setSex] = useState(false)
 
   function sendData(){
-    let info = `Imię: ${name}, Nazwisko:${surName}, Poziom magiczny: ${powerLVL}, Zainteresowania: ${interests}, ${sex?'Wysłano sową':'Wysłano nudną pocztą'}`
+    let info = `Imię: ${name}, Nazwisko: ${surName}, Poziom magiczny: ${powerLVL}, Zainteresowania: ${interests}, Wyjątkowe zwierzątko: ${pet}, ${sex?'Wysłano sową':'Wysłano nudną pocztą'}`
     alert(info)
     console.log(info)
   }
